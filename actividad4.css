@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tarjeta {
+  width: 200px;
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+.tarjeta h3 {
+  margin: 10px 0;
+}
+.tarjeta .precio-original {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.tarjeta .precio-con-descuento {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.producto-1::before {
+  content: "Producto 1";
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+.producto-1 .precio-original::after {
+  content: " $ 100";
+}
+.producto-1 .precio-con-descuento::after {
+  content: " $ 80";
+}
+
+.producto-2::before {
+  content: "Producto 2";
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+.producto-2 .precio-original::after {
+  content: " $ 150";
+}
+.producto-2 .precio-con-descuento::after {
+  content: " $ 127.5";
+}
+
+.producto-3::before {
+  content: "Producto 3";
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+.producto-3 .precio-original::after {
+  content: " $ 200";
+}
+.producto-3 .precio-con-descuento::after {
+  content: " $ 180";
+}/*# sourceMappingURL=actividad4.css.map */
